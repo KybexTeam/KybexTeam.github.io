@@ -5,6 +5,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
+  background-color: #fffffff7;
 }
 header nav {
   display: flex;
@@ -136,7 +137,7 @@ main
   width: 100%;
 }
 main section .service-color .service .service-items .service-card h4 {
-  font: 16px;
+  font-size: 16px;
   color: #999;
   font-weight: 400;
   margin-bottom: 80px;
@@ -185,6 +186,7 @@ main section .summary .summary-content {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 100%;
 }
 main section .summary .summary-content .summary-img {
   width: 30%;
@@ -195,6 +197,7 @@ main section .summary .summary-content .summary-img .img-correction {
 }
 main section .summary .summary-content .summary-img img {
   width: 100%;
+  max-height: 200px;
 }
 main section .summary .summary-content .summary-text {
   line-height: 1.5;
@@ -221,7 +224,7 @@ footer {
 }
 footer .footer-logo {
   width: 80%;
-  padding: 10px;
+  padding: 10px 0;
 }
 footer .footer-logo img {
   width: 100px;
