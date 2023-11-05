@@ -1,242 +1,364 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="wide wow-animation" lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/cssReset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
-    <title>Kybex</title>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="header-logo">
-          <img src="./assets/images/kybex_logov2.svg" alt="kybe Logo" />
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="loader">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-        <div class="nav-links">
-          <ul>
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#our-service">Our Services</a>
-            </li>
-            <li>
-              <a href="#why-us">Why us?</a>
-            </li>
-            <li>
-              <a href="https://virgool.io/KybexTeam">Blog</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <div class="home" id="home">
-          <div class="home-article">
-            <h1>
-              Focus On Your <br />
-              Creativity
-            </h1>
-            <h3>Leave your infrastructure to us!</h3>
-          </div>
-          <div class="home-img">
-            <img src="./assets/images/worker.svg" alt="worker" />
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="service-color">
-          <div class="service">
-            <div class="service-header">
-              <h2>
-                We handle the <br />
-                infrastructure
-              </h2>
-              <h3>You handle the rest</h3>
-            </div>
-            <div class="divider" id="our-service"></div>
-            <div class="service-items">
-              <!-- 1 -->
-              <div class="service-card">
-                <h2>Monitoring</h2>
-                <div class="service-img">
-                  <img src="./assets/images/monitoring.svg" alt="monitoring" />
-                </div>
-                <h4>Visualize your system status</h4>
-              </div>
-              <!-- 2 -->
-              <div class="service-card">
-                <h2>Automation</h2>
-                <div class="service-img">
-                  <img src="./assets/images/automation.svg" alt="Automation" />
-                </div>
-                <h4>Every Task is one click away</h4>
-              </div>
-              <!-- 3 -->
-              <div class="service-card">
-                <h2>CI/CD</h2>
-                <div class="service-img">
-                  <img src="./assets/images/pipeline.svg" alt="CI/CD" />
-                </div>
-                <h4>Release ASAP and safely</h4>
-              </div>
-              <!-- 4 -->
-              <div class="service-card">
-                <h2>Tuning and Optimization</h2>
-                <div class="service-img">
-                  <img
-                    src="./assets/images/optimization.svg"
-                    alt="Tuning and Optimization"
-                  />
-                </div>
-                <h4>Get the most out of your resources</h4>
-              </div>
-              <!-- 5 -->
-              <div class="service-card">
-                <h2>Database Management</h2>
-                <div class="service-img">
-                  <img
-                    src="./assets/images/database.svg"
-                    alt="Database Management"
-                  />
-                </div>
-                <h4>Secure, Fast and Reliable access to your data</h4>
-              </div>
-              <!-- 6 -->
-              <div class="service-card">
-                <h2>Disaster Recovery</h2>
-                <div class="service-img">
-                  <img
-                    src="./assets/images/recovery.svg"
-                    alt="Disaster Recovery"
-                  />
-                </div>
-                <h4>Holding the umbrella on rainy days</h4>
-              </div>
-              <!-- 7 -->
-              <div class="service-card">
-                <h2>Security Assessment</h2>
-                <div class="service-img">
-                  <img
-                    src="./assets/images/security.svg"
-                    alt="Security Assessment"
-                  />
-                </div>
-                <h4>Plug the holes in your system or infrastructure 😅</h4>
-              </div>
-              <!-- 8 -->
-              <div class="service-card">
-                <h2>Design and Consultation</h2>
-                <div class="service-img">
-                  <img
-                    src="./assets/images/consulting.svg"
-                    alt="Design and Consultation"
-                  />
-                </div>
-                <h4>Choose the right tools and approach for the job</h4>
-              </div>
-              <!-- 9 -->
-              <div class="service-card">
-                <h2>Employee Training</h2>
-                <div class="service-img">
-                  <img
-                    src="./assets/images/training.svg"
-                    alt="Employee Training"
-                  />
-                </div>
-                <h4>We teach you how to fish</h4>
-              </div>
-            </div>
-            <!-- spacer start -->
-            <div class="spacer"></div>
-            <!-- spacer end -->
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="summary" id="why-us">
-          <div class="summary-header">
-            <h2>Why Us?</h2>
-            <h4>Here are a couple of reasons</h4>
-            <div class="divider"></div>
-          </div>
-          <div class="summary-content">
-            <!-- 1 -->
-            <div class="summary-img">
-              <img src="./assets/images/laptop-globe.svg" alt="entire Team" />
-            </div>
-            <div class="summary-text">
-              <h6>Have an entire Team of engineers at your disposal</h6>
-              <p>
-                as a customer you have access to an entire team of engineers
-                working toghether to make sure your infrastructure is running
-                smoothly
-              </p>
-            </div>
-          </div>
-          <!-- 2 -->
-          <div class="summary-content">
-            <div class="summary-img">
-              <img src="./assets/images/doc-sync.svg" alt="entire Team" />
-            </div>
-            <div class="summary-text">
-              <h6>
-                no need to go through the hiring process of dedicated engineers
-              </h6>
-              <p>
-                every customer has the option of negotiating a suitable plan
-                according to their needs. not every company requiers or has the
-                budget for dedicated infrastructure personale
-              </p>
-            </div>
-          </div>
-          <!-- 3 -->
-          <div class="summary-content">
-            <div class="summary-img">
-              <img src="./assets/images/mobile.svg" alt="entire Team" />
-            </div>
-            <div class="summary-text">
-              <h6>
-                we take full responsibility for your infrastructre availability
-                and maintenance
-              </h6>
-              <p>
-                spend more time on your business and less time worrying about
-                technical issues. we will handle the technical part for you
-              </p>
-            </div>
-          </div>
-          <!-- 4 -->
-          <div class="summary-content">
-            <div class="summary-img">
-              <div class="img-correction">
-                <img
-                  src="./assets/images/cyber-security-1413946-1199399.svg"
-                  alt="entire Team"
-                />
-              </div>
-            </div>
-            <div class="summary-text">
-              <h6>we are always watching</h6>
-              <p>
-                as our customer you have access to
-                <span>our monitoring solutions</span> which work
-                <span>24/7</span> to notify us of anything that might need
-                attention
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="footer-logo">
-        <img src="./assets/images/kybex_logov2.svg" alt="kybex" />
+        <p>Loading...</p>
       </div>
-    </footer>
+    </div>
+    <div class="page">
+      <!-- <a class="banner banner-top" href="https://www.templatemonster.com/website-templates/monstroid2.html" target="_blank">
+      <img src="images/monstroid.jpg" alt="" height="0">
+    </a> -->
+      <header class="section page-header rd-navbar-transparent-wrap">
+        <!--RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-transparent" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="20px" data-xl-stick-up-offset="20px" data-xxl-stick-up-offset="20px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+            <!-- <div class="rd-navbar-aside-outer rd-navbar-collapse">
+              <div class="rd-navbar-aside">
+                <div class="rd-navbar-info">
+                  <div class="icon novi-icon mdi mdi-phone"></div><a href="tel:#">+1 (800) 123 1234</a>
+                </div>
+                <ul class="list-lined">
+                  <li><a href="#">Log in</a></li>
+                  <li><a href="#">Create an account</a></li>
+                </ul>
+              </div>
+            </div> -->
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main-inner">
+                <div class="rd-navbar-main">
+                  <!--RD Navbar Panel-->
+                  <div class="rd-navbar-panel">
+                    <!--RD Navbar Toggle-->
+                    <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                    <!--RD Navbar Brand-->
+                    <div class="rd-navbar-brand">
+                      <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-default-293x44.png" alt="" width="146" height="22"/><img class="brand-logo-light" src="images/logo-inverse-310x44.png" alt="" width="155" height="22" style="width: 50%;"/></a>
+                    </div>
+                  </div>
+                  <div class="rd-navbar-main-element">
+                    <div class="rd-navbar-nav-wrap">
+                      <ul class="rd-navbar-nav">
+                        <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="#our-services">Our services and product</a>
+                        </li>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#our-team">Our Team</a>
+                      </li>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="#our-customer">Our customers</a>
+                        </li>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="#contact-us">Contact us</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!--Swiper-->
+      <section class="section swiper-container swiper-slider swiper-slider-1 context-dark" data-loop="true" data-autoplay="5000" data-simulate-touch="false">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" data-slide-bg="images/index-1-slider-1-1920x768.jpg">
+            <div class="swiper-slide-caption section-lg">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+                    <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">Innovative Blockchain Solutions</span><span class="d-block text-light" data-caption-animate="fadeInUp" data-caption-delay="200">Revolutionizing Your Business</span></h1>
+                    <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">Empowering businesses with secure and decentralized technology.</p>
+                    <!-- <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a class="button button-secondary-text" href="#">Read more</a></div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-slide-bg="images/index-1-slider-2-1920x768.jpg">
+            <div class="swiper-slide-caption section-lg">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+                    <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">Scalable Infrastructure Solutions</span><span class="d-block text-light" data-caption-animate="fadeInUp" data-caption-delay="200">Powering Your Business Growth</span></h1>
+                    <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">Tailored infrastructure solutions for evolving business needs.</p>
+                    <!-- <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a class="button button-secondary-text" href="#">Read more</a></div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-slide-bg="images/index-1-slider-3-1920x768.jpg">
+            <div class="swiper-slide-caption section-lg">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+                    <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">Strategic Consulting</span><span class="d-block text-light" data-caption-animate="fadeInUp" data-caption-delay="200">Expertise</span></h1>
+                    <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">Empowering your business with strategic guidance and innovative solutions.</p>
+                    <!-- <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a class="button button-secondary-text" href="#">Read more</a></div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Swiper Pagination-->
+        <div class="swiper-pagination-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Icon List 2-->
+      <section class="section section-sm section-sm-bottom-100 bg-primary">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 wow fadeInUp">
+              <div class="box-icon-2">
+                <div class="icon novi-icon mercury-icon-calc"></div>
+                <h5 class="title">24x7 SysOps NOC Team</h5>
+                <p class="text">Our company ensures seamless support, keeping your business active even as you sleep, ensuring your peaceful rest.</p>
+              </div>
+            </div>
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box-icon-2">
+                <div class="icon novi-icon mercury-icon-chart"></div>
+                <h5 class="title">Disaster recovery</h5>
+                <p class="text">In your darkest times, trust us to stand by you and your system, ensuring recovery and resilience.</p>
+              </div>
+            </div>
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+              <div class="box-icon-2">
+                <div class="icon novi-icon mercury-icon-time-sand"></div>
+                <h5 class="title">Monitoring</h5>
+                <p class="text">Monitor your entire system through our lens, swiftly identifying and fixing issues</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- our Services-->
+      <section class="section bg-default section-md" id="our-services">
+        <div class="container">
+          <h2 class="title-icon"><span class="icon icon-default mercury-icon-news"></span><span>Our <span class="text-light">Services</span></span></h2>
+          <div class="box-image-small box-image-small-left">
+            <div class="item-image bg-image novi-nackground" style="background-image: url(images/index-1-2-586x334.jpg)"></div>
+            <div class="item-body wow fadeInRight">
+              <h4>CI/CD & Automation</h4>
+              <p class="big">Our solutions merge agile CI/CD and automation for DevOps and blockchain. Streamline workflows, deploy efficiently, and scale infrastructure. Optimize productivity and stay ahead with our innovative approach.</p>
+            </div>
+          </div>
+          <div class="box-image-small box-image-small-right">
+            <div class="item-image bg-image novi-nackground" style="background-image: url(images/index-1-3-580x334.jpg)"></div>
+            <div class="item-body wow fadeInLeft">
+              <h4>Tuning and Optimization</h4>
+              <p class="big">Unlock system potential with our optimization services. Fine-tune infrastructure for optimal performance. Address bottlenecks and achieve peak performance levels consistently.</p>
+            </div>
+          </div>
+          <div class="box-image-small box-image-small-left">
+            <div class="item-image bg-image novi-nackground" style="background-image: url(images/index-1-4-586x334.jpg)"></div>
+            <div class="item-body wow fadeInRight">
+              <h4>Database Management</h4>
+              <p class="big">Kybex offers database management services for data security, availability, efficiency, and utilization. Optimize data management for business success in the digital age.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-lg bg-primary">
+        <div class="container text-center text-lg-left">
+          <h2><span class="text-light">Our</span> Principles</h2>
+          <div class="row row-30 number-counter-2">
+            <div class="col-md-4">
+              <div class="box-numbered-left unit">
+                <div class="unit-left">
+                  <div class="index-counter"></div>
+                </div>
+                <div class="unit-body">
+                  <h5 class="title">Trust</h5>
+                  <div class="content">The customer is very important, the customer will be followed by the customer. Even from a high temperature. No fear diam, feugiat and the bed of life, the time of the porttitor sem Vestibulum not lacus vulputate, placerat ligula as, dignissim tortor.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-numbered-left unit">
+                <div class="unit-left">
+                  <div class="index-counter"></div>
+                </div>
+                <div class="unit-body">
+                  <h5 class="title">Integrity</h5>
+                  <div class="content">For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-numbered-left unit">
+                <div class="unit-left">
+                  <div class="index-counter"></div>
+                </div>
+                <div class="unit-body">
+                  <h5 class="title">Honesty</h5>
+                  <div class="content">For no one despises or hates or runs away from pleasure because it is pleasure, but because great pains result to those who do not know how to follow pleasure with reason. Nor, moreover, is there anyone who feels pain because it is pain.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       <!-- Our Team-->
+       <section class="section section-lg bg-default" id="our-team">
+        <div class="container text-center text-lg-left">
+          <h2><span class="text-light">Our</span> Team</h2>
+          <div class="row row-40">
+            <div class="col-md-4">
+              <div class="team-box-left" style="display: flex; justify-content: center; flex-wrap: wrap;">
+                <div class="team-meta unit align-items-center">
+                  <div class="unit-left"><img class="img" src="images/testimonials-1-138x138.jpg" alt="" width="138" height="69"/>
+                  </div>
+                  <div class="unit-body">
+                    <h5 class="title">Amir Arsalan Ghorbanzadeh</h5>
+                    <div class="subtitle">Manager</div>
+                  </div>
+                </div>
+                <div class="content" style="width: 40%;">
+                  <a href="https://www.linkedin.com/in/amirarsalanio/" target="_blank">
+                    <div style="border: 1px solid #0B65C2; background-color: #0B65C2; color: white; width: 100%; border-radius: 4px; padding: 2%; display: flex; justify-content: center;">
+                      Linkdin Account
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-box-left" style="display: flex; justify-content: center; flex-wrap: wrap;">
+                <div class="team-meta unit align-items-center">
+                  <div class="unit-left"><img class="img" src="images/testimonials-2-138x138.jpg" alt="" width="138" height="69"/>
+                  </div>
+                  <div class="unit-body">
+                    <h5 class="title">Moses Poudineh</h5>
+                    <div class="subtitle">Financial Consultant</div>
+                  </div>
+                </div>
+                <div class="content" style="width: 40%">
+                  <a href="https://www.linkedin.com/in/moses-poudineh-46901998/" target="_blank">
+                    <div style="border: 1px solid #0B65C2; background-color: #0B65C2; color: white; width: 100%; border-radius: 4px; padding: 2%; display: flex; justify-content: center;">
+                      Linkdin Account
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-box-left" style="display: flex; justify-content: center; flex-wrap: wrap;">
+                <div class="team-meta unit align-items-center">
+                  <div class="unit-left"><img class="img" src="images/testimonials-3-138x138.jpg" alt="" width="138" height="69"/>
+                  </div>
+                  <div class="unit-body">
+                    <h5 class="title">Arash Khavari Rad</h5>
+                    <div class="subtitle">Tax Manager</div>
+                  </div>
+                </div>
+                <div class="content" style="width: 40%;">
+                  <a href="https://www.linkedin.com/in/arashkhavari" target="_blank">
+                    <div style="border: 1px solid #0B65C2; background-color: #0B65C2; color: white; width: 100%; border-radius: 4px; padding: 2%; display: flex; justify-content: center;">
+                      Linkdin Account
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          <!-- </div><a class="button button-primary" href="#">View all team</a> -->
+        </div>
+      </section>
+      <!-- Our Clients-->
+      <section class="section section-lg bg-gray-800" id="our-customer">
+        <div class="container text-center text-xl-left">
+          <h2>Our <span class="text-light">Clients</span></h2>
+          <div class="owl-carousel owl-carousel-4 text-center" data-items="1" data-sm-items="3" data-md-items="4" data-lg-items="4" data-xl-items="4" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false">
+            <div class="item"><img src="images/brand-light-1-133x65.png" alt="" width="133" height="32"/></div>
+            <div class="item"><img src="images/brand-light-2-117x61.svg" style="margin-top: 9%;" alt="" width="117" height="30"/></div>
+            <div class="item"><img src="images/brand-light-3-147x70.png" style="margin-top: 5%;" alt="" width="147" height="35"/></div>
+            <div class="item"><img src="images/brand-light-4-139x64.png" style="width: 25%; margin-top: 2%;" alt="" width="139" height="32"/></div>
+            <!-- <div class="item"><a class="link-image" href="#"><img src="images/brand-light-5-123x67.png" alt="" width="123" height="33"/></a></div>
+            <div class="item"><a class="link-image" href="#"><img src="images/brand-light-6-151x72.png" alt="" width="151" height="36"/></a></div> -->
+          </div>
+        </div>
+      </section>
+      <!-- Contacts-->
+      <section class="section section-md" id="contact-us">
+        <div class="container">
+          <h2>Contacts</h2>
+          <div class="row row-40" style="justify-content: center;">
+            <div class="col-md-10 col-lg-6">
+              <h5>Get in Touch</h5>
+              <form action="https://formspree.io/f/xzblwvnj" method="POST">
+                <div class="row row-10">
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input class="form-input" id="contact-first-name" type="text" name="name" data-constraints="@Required">
+                      <label class="form-label" for="contact-first-name">First Name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input class="form-input" id="contact-last-name" type="text" name="name" data-constraints="@Required">
+                      <label class="form-label" for="contact-last-name">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-wrap">
+                      <label class="form-label" for="contact-message">Message</label>
+                      <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-7 col-xl-8">
+                    <div class="form-wrap">
+                      <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+                      <label class="form-label" for="contact-email">E-mail</label>
+                    </div>
+                  </div>
+                  <div class="col-md-5 col-xl-4">
+                    <button class="button button-size-1 button-block button-primary" type="submit">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <!--coded by Starlight-->
   </body>
 </html>
